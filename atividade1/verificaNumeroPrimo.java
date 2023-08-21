@@ -8,21 +8,21 @@ public class verificaNumeroPrimo {
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Digite um número: ");
-        int number = scanner.nextInt();
+        int num = scanner.nextInt();
 
         boolean ePrimo = true;
 
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
+        for (int i = 2; i <= Math.sqrt(num); i++) {
+            if (num % i == 0) {
                 ePrimo = false;
                 break;
             }
         }
 
         if (ePrimo) {
-            System.out.println(number + " é um número primo.");
+            System.out.println(num + " é um número primo.");
         } else {
-            System.out.println(number + " não é um número primo.");
+            System.out.println(num + " não é um número primo.");
         }
     }
 }
