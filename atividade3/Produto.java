@@ -5,8 +5,8 @@ public class Produto {
     private String nomeProd;
 
     Produto(String nomeProd, int quantidade){
-        this.quantidade = this.quantidade;
-        this.nomeProd = this.nomeProd;
+        this.quantidade = quantidade;
+        this.nomeProd = nomeProd;
     }
 
     public Produto(String nomeProd) {
