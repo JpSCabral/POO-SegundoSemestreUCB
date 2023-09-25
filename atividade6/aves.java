@@ -18,5 +18,8 @@ public class aves extends animal{
     public void setTipoDeBicoet(String tipoDeBico) {
         this.tipoDeBico = tipoDeBico;
     }
+    public String voar() {
+        return "Voou";
+    }
 }
 

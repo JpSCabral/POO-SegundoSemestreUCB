@@ -18,4 +18,8 @@ public class mamifero extends animal {
     public void setCorPelagem(String corPelagem) {
         this.corPelagem = corPelagem;
     }
+
+    public String amamentar() {
+        return "Amamentou";
+    }
 }

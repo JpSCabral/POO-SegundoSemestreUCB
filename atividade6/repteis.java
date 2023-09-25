@@ -18,4 +18,7 @@ public class repteis extends animal{
     public void setCoberturaCorporal(String coberturaCorporal) {
         this.coberturaCorporal = coberturaCorporal;
     }
+    public String botarOvo() {
+        return "Botou ovo";
+    }
 }

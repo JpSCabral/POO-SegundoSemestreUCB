@@ -40,4 +40,10 @@ public class animal {
     public void setRaca(String raca) {
         this.raca = raca;
     }
+
+    public String comer (){
+        return "Comeu";
+    }public String andar (){
+        return "Andou";
+    }
 }
