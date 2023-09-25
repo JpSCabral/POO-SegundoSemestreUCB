@@ -1,6 +1,9 @@
 package atividade5.hierarquia;
 
 public class bicicleta extends veiculo{
+
+
+
     public bicicleta(String marca, Integer anoDeFabricacao, String modelo, Integer velocidade, String cor) {
         this.marca = marca;
         this.modelo = modelo;
